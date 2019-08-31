@@ -44,3 +44,5 @@ Started GET "/hello_world" for 127.0.0.1 at 2019-08-31 10:05:49 +0000
 Processing by StaticController#hello_world as HTML
   Rendering static/hello_world.html.erb within layouts/application
   Rendered static/hello_world.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 459ms (Views: 440.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
